@@ -1,0 +1,2947 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '842430618938030');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=842430618938030&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+
+<title>Guia Piano MPB: Toque a música brasileira que marcou sua vida | Bianca Ribeiro</title>
+<meta name="description" content="50 acompanhamentos prontos + masterclass em vídeo para você tocar a MPB que marcou sua vida no piano com elegância e emoção, mesmo sem ler partitura. Acesso imediato e vitalício." />
+<meta property="og:title" content="Guia Piano MPB: 50 Acompanhamentos para Tocar a Música Brasileira" />
+<meta property="og:description" content="Toque a MPB que marcou sua vida no piano com fluidez e emoção, mesmo se você ainda trava na hora de acompanhar." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<style>
+  :root{
+    --bg:#FFFFFF;
+    --bg-alt:#F4F6EE;
+    --ink:#1A1A1A;
+    --ink-soft:#3D3A36;
+    --muted:#8A8278;
+    --line:#E5E9DA;
+    --accent:#8A9577;
+    --accent-dark:#6E7A5C;
+    --accent-soft:#C4CCB5;
+    --accent-deep:#4F5A3E;
+    --white:#FFFFFF;
+    --shadow:0 1px 2px rgba(26,26,26,.04), 0 8px 24px rgba(26,26,26,.06);
+    --shadow-lg:0 4px 12px rgba(26,26,26,.08), 0 20px 60px rgba(26,26,26,.10);
+    --radius:8px;
+    --maxw:760px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  img,svg{max-width:100%; height:auto}
+  html{scroll-behavior:smooth; overflow-x:hidden; max-width:100%; width:100%}
+  body{
+    font-family:'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.65;
+    font-size:17px;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    overflow-x:hidden;
+    max-width:100%;
+    width:100%;
+    position:relative;
+  }
+  h1,h2,h3,h4,.serif{
+    font-family:'Cormorant Garamond', Georgia, serif;
+    font-weight:500;
+    line-height:1.15;
+    letter-spacing:-.01em;
+    color:var(--ink);
+  }
+  h1{font-size:clamp(1.45rem, 2.8vw, 2.05rem); font-weight:600; line-height:1.22; letter-spacing:-.012em}
+  h2{font-size:clamp(1.8rem, 4vw, 2.6rem); font-weight:500}
+  h3{font-size:clamp(1.4rem, 3vw, 1.8rem); font-weight:500}
+  p{margin:0 0 1em}
+  a{color:inherit; text-decoration:none}
+  em, .italic{font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-weight:500}
+
+  /* === TOP BAR === */
+  .topbar{
+    background:var(--ink);
+    color:#FFFFFF;
+    padding:12px 20px;
+    text-align:center;
+    font-size:13.5px;
+    font-weight:500;
+    letter-spacing:.02em;
+    position:sticky; top:0; z-index:50;
+  }
+  .topbar .pulse{display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--accent-soft); margin-right:8px; vertical-align:middle; animation:pulse 1.6s infinite ease-in-out}
+  @keyframes pulse{0%,100%{opacity:1; transform:scale(1)} 50%{opacity:.4; transform:scale(.8)}}
+  .topbar .timer{font-variant-numeric:tabular-nums; color:var(--accent-soft); font-weight:600; margin-left:6px}
+  .topbar .timer span{display:inline-block; min-width:1.6em; text-align:center}
+
+  /* === SECTION SHELL === */
+  section{padding:72px 24px; text-align:center}
+  .wrap{max-width:var(--maxw); margin:0 auto}
+  .wrap-wide{max-width:1040px; margin:0 auto}
+
+  /* Cabeçalho consistente em todas as seções */
+  section h2{
+    text-align:center;
+    max-width:720px;
+    margin:0 auto 18px;
+  }
+  section h2 + p,
+  section .lede{
+    text-align:center;
+    max-width:600px;
+    margin:0 auto 40px;
+    color:var(--ink-soft);
+    font-size:17px;
+    line-height:1.6;
+  }
+
+  .eyebrow{
+    display:block;
+    text-align:center;
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:.22em;
+    color:var(--accent);
+    font-weight:600;
+    margin:0 auto 18px;
+    width:100%;
+  }
+  .eyebrow.dark{color:var(--ink); opacity:.6}
+
+  /* === HERO === */
+  .hero{
+    padding:48px 24px 56px;
+    text-align:left;
+    background:var(--bg);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-card{
+    background:#EFF3E5;
+    border-radius:28px;
+    padding:56px 56px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 1px 2px rgba(26,26,26,.03), 0 14px 40px rgba(138,149,119,.10);
+    border:1px solid rgba(138,149,119,.12);
+  }
+  .hero-card::before{
+    content:"";
+    position:absolute;
+    top:-25%; right:-15%;
+    width:55%; aspect-ratio:1;
+    background:radial-gradient(circle, rgba(138,149,119,.22), transparent 65%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .hero-card > *{position:relative; z-index:1}
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1.2fr;
+    gap:32px;
+    align-items:center;
+  }
+  .hero-content{text-align:left}
+  .hero .eyebrow{
+    text-align:left;
+    margin:0 0 14px;
+    width:auto;
+  }
+  .hero h1{margin:0 0 14px; max-width:none}
+  .hero h1 .accent{color:var(--accent-dark); font-style:italic}
+  .hero .lede{
+    text-align:left;
+    font-size:16.5px;
+    color:var(--ink-soft);
+    max-width:none;
+    margin:0 0 22px;
+    line-height:1.55;
+  }
+  .hero .lede strong{font-weight:600; color:var(--ink)}
+  .hero-bullets{
+    list-style:none;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows:1fr;
+    gap:10px;
+    max-width:none;
+    margin:0;
+    padding:0;
+    background:transparent;
+    border:none;
+    border-radius:0;
+    text-align:left;
+    align-items:stretch;
+  }
+  .hero-bullets li{
+    background:var(--white);
+    border:1px solid rgba(138,149,119,.22);
+    border-radius:14px;
+    padding:16px 14px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    font-size:13.5px;
+    color:var(--ink);
+    line-height:1.35;
+    font-weight:500;
+    box-shadow:0 1px 2px rgba(26,26,26,.03);
+    transition:transform .2s ease, box-shadow .2s ease;
+    min-height:64px;
+  }
+  .hero-bullets li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 14px rgba(138,149,119,.16);
+  }
+  .hero-bullets li::before{content:none}
+  .hero-bullets .ico{
+    flex:0 0 28px;
+    width:28px; height:28px;
+    background:linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    border-radius:8px;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 2px 6px rgba(138,149,119,.30);
+  }
+  .hero-bullets .ico svg{
+    width:14px; height:14px;
+    stroke:#FFFFFF;
+    fill:none;
+    stroke-width:1.8;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .hero .micro{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:16px;
+    letter-spacing:.02em;
+    text-align:left;
+  }
+  .hero .micro .shield{display:inline-block; margin-right:4px}
+  .hero-image{display:flex; justify-content:flex-end; align-items:center; margin-right:20px}
+  .hero-image .img-slot{
+    margin:0;
+    max-width:none;
+    width:100%;
+  }
+
+  /* === BUTTON === */
+  .btn{
+    display:inline-block;
+    background:var(--accent);
+    color:#FFF;
+    padding:18px 36px;
+    border-radius:var(--radius);
+    font-weight:600;
+    font-size:15.5px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    border:none;
+    cursor:pointer;
+    transition:all .25s ease;
+    box-shadow:0 4px 12px rgba(138,149,119,.32);
+    position:relative;
+    overflow:hidden;
+  }
+  .btn:hover{
+    background:var(--accent-dark);
+    transform:translateY(-1px);
+    box-shadow:0 6px 18px rgba(138,149,119,.42);
+  }
+  .btn::after{
+    content:"→";
+    margin-left:10px;
+    display:inline-block;
+    transition:transform .25s ease;
+  }
+  .btn:hover::after{transform:translateX(4px)}
+  .btn-lg{padding:22px 44px; font-size:16px}
+  .btn-ghost{
+    background:transparent;
+    color:var(--ink);
+    border:1px solid var(--ink);
+    box-shadow:none;
+  }
+  .btn-ghost:hover{background:var(--ink); color:#FFF; box-shadow:none}
+
+  /* === DOR (cards em grade) === */
+  .dor{background:var(--bg-alt)}
+  .dor h2{margin:0 auto 40px; max-width:760px}
+  .dor h2 em{color:var(--accent-dark); font-style:italic; font-weight:600}
+
+  .dor-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:16px;
+    max-width:1040px;
+    margin:0 auto;
+  }
+  .dor-card{
+    background:#D9E0CB;
+    border-radius:14px;
+    padding:18px 20px;
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    text-align:left;
+  }
+  .dor-card p{
+    margin:0;
+    font-size:14.5px;
+    color:var(--ink);
+    line-height:1.45;
+    font-weight:500;
+  }
+  .dor-card p strong{font-weight:700; color:var(--ink)}
+
+  .dor-card .ico{
+    flex:0 0 32px;
+    width:32px; height:32px;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+    margin-top:1px;
+  }
+  .dor-card .ico.x{
+    background:#E64545;
+    border-radius:50%;
+    box-shadow:0 1px 3px rgba(230,69,69,.25);
+  }
+  .dor-card .ico.x svg{
+    width:14px; height:14px;
+    stroke:#FFFFFF;
+    stroke-width:2.6;
+    fill:none;
+    stroke-linecap:round;
+  }
+  .dor-card .ico.alert{
+    background:transparent;
+    width:36px; height:36px;
+    flex:0 0 36px;
+    margin-top:0;
+  }
+  .dor-card .ico.alert svg{
+    width:36px; height:36px;
+    display:block;
+    filter:drop-shadow(0 1px 2px rgba(245,184,0,.25));
+  }
+
+  .dor-card.special{
+    background:#FFF1C7;
+    border:1px solid rgba(245,184,0,.32);
+    align-items:center;
+  }
+  .dor-card.special p{color:#5A4500}
+  .dor-card.special p strong{color:#2E1E00; font-weight:700}
+
+  /* === VIRADA (2 colunas com pílulas) === */
+  .virada{background:var(--bg); padding-top:32px; padding-bottom:0; overflow:hidden}
+  .virada-grid{
+    display:block;
+    max-width:1040px;
+    margin:0 auto;
+    text-align:left;
+    position:relative;
+  }
+  .virada-content{
+    text-align:left;
+    max-width:520px;
+    padding-bottom:64px;
+    position:relative;
+    z-index:2;
+  }
+  .virada-content .eyebrow{
+    text-align:left;
+    margin:0 0 14px;
+    width:auto;
+  }
+  .virada-content h2{
+    text-align:left;
+    max-width:none;
+    margin:0 0 22px;
+  }
+  .virada-content h2 em{color:var(--accent-dark); font-style:italic}
+  .virada-content .intro{
+    text-align:left;
+    color:var(--ink-soft);
+    font-size:15.5px;
+    line-height:1.55;
+    margin:0 0 28px;
+    max-width:none;
+  }
+
+  .virada-pills{
+    list-style:none;
+    margin:0 0 28px;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .virada-pills li{
+    background:var(--ink);
+    color:#FFFFFF;
+    padding:16px 28px;
+    border-radius:100px;
+    font-size:14.5px;
+    line-height:1.4;
+    font-weight:500;
+    text-align:left;
+  }
+  .virada-pills li strong{font-weight:700; color:var(--accent-soft)}
+
+  .virada-closer{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    line-height:1.55;
+    margin:0;
+    max-width:none;
+    text-align:left;
+  }
+  .virada-closer strong{color:var(--ink); font-weight:700}
+
+  .virada-image{
+    position:absolute;
+    right:-200px;
+    bottom:0;
+    width:auto;
+    height:700px;
+    z-index:1;
+    pointer-events:none;
+    display:block;
+  }
+  .virada-image img{
+    width:auto; max-width:none;
+    height:700px;
+    display:block;
+    margin:0;
+    border-radius:0;
+  }
+  .virada-image .img-fallback{
+    display:flex;
+    flex-direction:column; align-items:center; justify-content:center;
+    width:100%; aspect-ratio:1/1.2;
+    max-width:380px;
+    border:1.5px dashed var(--accent);
+    border-radius:var(--radius);
+    padding:40px;
+    text-align:center;
+    background:var(--bg-alt);
+  }
+  .virada-image:not(.no-img) .img-fallback{display:none}
+  .virada-image.no-img img{display:none}
+  .virada-image .img-fallback svg{
+    width:36px; height:36px;
+    stroke:var(--accent);
+    fill:none;
+    stroke-width:1.4;
+    margin-bottom:14px;
+  }
+  .virada-image .img-fallback .lab{
+    font-size:12.5px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:8px;
+  }
+  .virada-image .img-fallback .hint{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    max-width:240px;
+  }
+  .virada-image .img-fallback code{
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size:11px;
+    background:var(--bg);
+    padding:2px 7px;
+    border-radius:4px;
+    color:var(--accent);
+    border:1px solid var(--line);
+  }
+
+  /* === PRODUTO === */
+  .produto{background:var(--bg-alt); text-align:center}
+  .produto .lede{
+    color:var(--ink-soft);
+    max-width:580px;
+    margin:0 auto 28px;
+    font-size:17px;
+  }
+  /* === REPERTÓRIO === */
+  .repertorio{background:var(--ink); color:#FFFFFF; text-align:center}
+  .repertorio .eyebrow{color:var(--accent-soft)}
+  .repertorio h2{color:#FFFFFF}
+  .repertorio h2 em{color:var(--accent-soft); font-style:italic}
+  .repertorio p{color:#D8D2C7; max-width:560px; margin-left:auto; margin-right:auto}
+  .songs{
+    margin-top:36px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+    max-width:720px;
+    margin-left:auto; margin-right:auto;
+  }
+  .song{
+    border:1px solid rgba(245,239,230,.18);
+    color:#FFFFFF;
+    padding:8px 16px;
+    border-radius:100px;
+    font-size:13.5px;
+    font-weight:400;
+    letter-spacing:.01em;
+  }
+  .song em{color:var(--accent-soft); font-style:normal; opacity:.7; margin-left:4px; font-size:12px}
+
+  /* === PARA QUEM (cards verticais) === */
+  .paraquem h2{text-align:center; margin-bottom:14px}
+  .paraquem .lede{margin-bottom:44px}
+  .paraquem-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    max-width:1040px;
+    margin:0 auto;
+  }
+  .pq-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:32px 26px 28px;
+    text-align:center;
+    box-shadow:0 1px 2px rgba(26,26,26,.03), 0 4px 16px rgba(26,26,26,.04);
+    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:220px;
+  }
+  .pq-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 4px 12px rgba(26,26,26,.06), 0 14px 32px rgba(138,149,119,.15);
+    border-color:var(--accent-soft);
+  }
+  .pq-card .pq-icon{
+    width:48px; height:48px;
+    border-radius:12px;
+    background:var(--bg-alt);
+    border:1px solid var(--accent-soft);
+    display:flex; align-items:center; justify-content:center;
+    margin:0 auto 20px;
+    color:var(--accent-dark);
+    flex:0 0 auto;
+  }
+  .pq-card .pq-icon svg{
+    width:24px; height:24px;
+    stroke:currentColor; fill:none;
+    stroke-width:1.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .pq-card p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    line-height:1.55;
+    margin:0;
+  }
+  .pq-card p strong{color:var(--ink); font-weight:600}
+
+  /* === BIANCA AVATAR (foto circular com máscara) === */
+  .bianca-avatar{
+    width:170px; height:170px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:0 auto 24px;
+    background:linear-gradient(135deg, var(--accent-soft) 0%, var(--accent) 100%);
+    border:3px solid var(--white);
+    box-shadow:0 8px 24px rgba(138,149,119,.22), 0 2px 6px rgba(0,0,0,.08);
+    position:relative;
+    flex-shrink:0;
+  }
+  .bianca-avatar img{
+    position:absolute;
+    inset:0;
+    width:100%; height:100%;
+    object-fit:cover;
+    display:block;
+    z-index:2;
+  }
+  .bianca-avatar .bianca-fallback{
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:#FFFFFF;
+    font-size:10.5px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    font-weight:600;
+    text-align:center;
+    padding:16px;
+    z-index:1;
+  }
+  .bianca-avatar.no-img .bianca-fallback{display:flex}
+  .bianca-avatar:not(.no-img) .bianca-fallback{display:none}
+  .bianca-avatar.no-img img{display:none}
+  .bianca-avatar .bianca-fallback svg{
+    width:34px; height:34px;
+    stroke:#FFFFFF;
+    fill:none;
+    stroke-width:1.4;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    margin-bottom:8px;
+  }
+
+  /* === AUTORA (caixa branca com 2 colunas) === */
+  .autora{background:var(--bg-alt); padding:64px 24px; text-align:center}
+  .autora .eyebrow{color:var(--accent-dark); margin-bottom:30px}
+
+  .autora-card{
+    background:#FFFFFF;
+    border-radius:28px;
+    padding:48px;
+    max-width:1040px;
+    margin:0 auto;
+    box-shadow:0 1px 2px rgba(26,26,26,.03), 0 14px 40px rgba(26,26,26,.06);
+    border:1px solid var(--line);
+  }
+  .autora-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    position:relative;
+  }
+  .autora-grid::before{
+    content:"";
+    position:absolute;
+    left:50%;
+    top:6%;
+    bottom:6%;
+    width:1px;
+    background:var(--line);
+  }
+  .autora-left{
+    text-align:center;
+    padding:12px 40px 12px 12px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .autora-left .bianca-avatar{
+    margin:0 0 20px;
+    width:140px; height:140px;
+  }
+  .autora-name{
+    font-family:'Cormorant Garamond', serif;
+    font-size:24px;
+    font-weight:600;
+    margin:0 0 8px;
+    text-align:center;
+    line-height:1.2;
+    color:var(--ink);
+  }
+  .autora-role{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    color:var(--muted);
+    margin-bottom:22px;
+    font-weight:500;
+  }
+  .autora-quote{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:16.5px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    margin:0;
+    text-align:center;
+    max-width:none;
+  }
+  .autora-right{
+    text-align:left;
+    padding:12px 12px 12px 48px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .autora-sub{
+    display:block;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.22em;
+    color:var(--accent-dark);
+    font-weight:600;
+    margin-bottom:20px;
+  }
+  .autora .credentials{
+    list-style:none;
+    max-width:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+  .autora .credentials li{
+    padding:10px 0 10px 24px;
+    position:relative;
+    font-size:14.5px;
+    color:var(--ink);
+    line-height:1.5;
+  }
+  .autora .credentials li::before{
+    content:"";
+    position:absolute; left:0; top:18px;
+    width:10px; height:1.5px;
+    background:var(--accent);
+  }
+  .autora .credentials li strong{font-weight:600; color:var(--ink)}
+
+  /* === ANCORAGEM (stack list) === */
+  .ancoragem{
+    background:#EFF3E5;
+    text-align:left;
+  }
+  .ancoragem .wrap{max-width:640px; text-align:left}
+  .ancoragem .eyebrow{text-align:left; margin:0 0 18px; width:auto}
+  .ancoragem h2{text-align:left; margin:0 0 12px; max-width:none}
+  .ancoragem .sub{
+    text-align:left;
+    color:var(--ink-soft);
+    font-size:15.5px;
+    margin:0 0 36px;
+    max-width:none;
+  }
+  .ancoragem .sub em{color:var(--accent-dark); font-style:italic; font-weight:600}
+
+  .stack{
+    background:transparent;
+    border:none;
+    overflow:visible;
+    margin-bottom:0;
+  }
+  .stack-item{
+    padding:18px 0;
+    border-bottom:1px solid rgba(79,90,62,.20);
+    text-align:left;
+  }
+  .stack-item:last-of-type{border-bottom:none}
+  .stack-item .row{
+    display:flex;
+    align-items:flex-end;
+    gap:8px;
+    width:100%;
+  }
+  .stack-item .name-title{
+    font-size:15.5px;
+    color:var(--ink);
+    font-weight:500;
+    line-height:1.3;
+    flex:0 1 auto;
+    text-align:left;
+  }
+  .stack-item .dots{
+    flex:1 1 auto;
+    height:14px;
+    align-self:flex-end;
+    background-image:radial-gradient(circle, rgba(79,90,62,.45) 1.1px, transparent 1.1px);
+    background-size:6px 6px;
+    background-position:left bottom 4px;
+    background-repeat:repeat-x;
+    min-width:24px;
+  }
+  .stack-item .price{
+    flex:0 0 auto;
+    font-family:'Cormorant Garamond', serif;
+    font-size:20px;
+    color:var(--ink-soft);
+    font-weight:500;
+    white-space:nowrap;
+    text-align:right;
+    text-decoration:line-through;
+    text-decoration-color:var(--accent);
+    text-decoration-thickness:1.8px;
+    text-decoration-skip-ink:none;
+  }
+  .stack-item small{
+    display:block;
+    margin-top:6px;
+    font-size:13px;
+    color:var(--muted);
+    line-height:1.4;
+  }
+
+  .stack-total{
+    margin-top:8px;
+    padding:22px 0 0;
+    border-top:2px solid var(--ink);
+    display:flex; justify-content:space-between; align-items:flex-end;
+  }
+  .stack-total .name-title{
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    color:var(--ink);
+    font-weight:700;
+    line-height:1.3;
+  }
+  .stack-total .name-title small{
+    display:block;
+    margin-top:4px;
+    text-transform:none;
+    letter-spacing:0;
+    color:var(--muted);
+    font-size:12.5px;
+    font-weight:400;
+  }
+  .stack-total .price{
+    font-family:'Cormorant Garamond', serif;
+    font-size:34px;
+    color:var(--ink);
+    font-weight:600;
+    line-height:1;
+    text-decoration:line-through;
+    text-decoration-color:var(--accent);
+    text-decoration-thickness:2.5px;
+    text-decoration-skip-ink:none;
+  }
+
+  /* === OFERTA (dark com 2 colunas) === */
+  .oferta{
+    background:var(--ink);
+    color:#FFFFFF;
+    text-align:left;
+    padding:80px 24px;
+  }
+  .oferta-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:64px;
+    align-items:center;
+    max-width:1080px;
+    margin:0 auto;
+  }
+  .oferta-image{
+    position:relative;
+    display:flex;
+    align-items:center; justify-content:center;
+    min-height:340px;
+  }
+  .oferta-image img{
+    max-width:100%; max-height:440px;
+    width:auto; height:auto;
+    display:block;
+    filter:
+      drop-shadow(0 0 60px rgba(196,204,181,.55))
+      drop-shadow(0 0 24px rgba(196,204,181,.40))
+      drop-shadow(0 18px 32px rgba(0,0,0,.30));
+    border-radius:6px;
+  }
+  .oferta-image .img-fallback{
+    display:flex;
+    flex-direction:column; align-items:center; justify-content:center;
+    width:100%; aspect-ratio:1.05;
+    max-width:380px;
+    border:1.5px dashed var(--accent-soft);
+    border-radius:var(--radius);
+    padding:40px;
+    text-align:center;
+  }
+  .oferta-image:not(.no-img) .img-fallback{display:none}
+  .oferta-image.no-img img{display:none}
+  .oferta-image .img-fallback svg{
+    width:36px; height:36px;
+    stroke:var(--accent-soft);
+    fill:none;
+    stroke-width:1.4;
+    margin-bottom:14px;
+  }
+  .oferta-image .img-fallback .lab{
+    font-size:12.5px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--accent-soft);
+    margin-bottom:8px;
+  }
+  .oferta-image .img-fallback .hint{
+    font-size:12px;
+    color:#D8D2C7;
+    line-height:1.5;
+    max-width:240px;
+  }
+  .oferta-image .img-fallback code{
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size:11px;
+    background:rgba(255,255,255,.08);
+    padding:2px 7px;
+    border-radius:4px;
+    color:var(--accent-soft);
+  }
+
+  .oferta-content{text-align:left}
+  .oferta-eyebrow{
+    display:block;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.22em;
+    color:var(--accent-soft);
+    margin-bottom:8px;
+    text-transform:uppercase;
+    text-align:left;
+    width:auto;
+  }
+  .oferta-sub{
+    display:block;
+    font-size:11.5px;
+    font-weight:600;
+    letter-spacing:.20em;
+    color:#9A938A;
+    margin-bottom:36px;
+    text-transform:uppercase;
+  }
+  .oferta-price{margin-bottom:32px}
+  .oferta-price .big{
+    display:block;
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(38px, 5.5vw, 60px);
+    font-weight:600;
+    color:#FFFFFF;
+    line-height:1.05;
+    letter-spacing:-.02em;
+  }
+  .oferta-price .alt{
+    display:block;
+    font-size:20px;
+    color:#D8D2C7;
+    margin-top:6px;
+    font-weight:400;
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+  }
+  .btn-cta{
+    display:inline-flex;
+    align-items:center;
+    background:var(--accent);
+    color:#FFFFFF;
+    padding:18px 40px;
+    border-radius:100px;
+    font-weight:600;
+    font-size:15.5px;
+    letter-spacing:.02em;
+    border:none;
+    cursor:pointer;
+    transition:transform .22s ease, box-shadow .22s ease, background .22s ease;
+    box-shadow:0 8px 22px rgba(138,149,119,.36);
+    text-decoration:none;
+  }
+  .btn-cta:hover{
+    background:var(--accent-dark);
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px rgba(138,149,119,.48);
+  }
+  .btn-cta::after{
+    content:"→";
+    margin-left:10px;
+    transition:transform .22s ease;
+    display:inline-block;
+  }
+  .btn-cta:hover::after{transform:translateX(4px)}
+  .oferta-micro{
+    margin:18px 0 0;
+    font-size:13px;
+    color:#9A938A;
+    font-weight:400;
+    letter-spacing:.02em;
+  }
+
+  /* === GARANTIA === */
+  .garantia{background:var(--bg-alt); text-align:center}
+  .garantia .seal{
+    width:140px; height:140px;
+    border:2px solid var(--accent);
+    border-radius:50%;
+    margin:0 auto 24px;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    background:var(--white);
+    box-shadow:var(--shadow);
+    position:relative;
+  }
+  .garantia .seal::before, .garantia .seal::after{
+    content:""; position:absolute;
+    width:130px; height:130px;
+    border:1px dashed var(--accent);
+    border-radius:50%;
+    opacity:.4;
+  }
+  .garantia .seal .num{
+    font-family:'Cormorant Garamond', serif;
+    font-size:42px;
+    color:var(--accent-dark);
+    font-weight:600;
+    line-height:1;
+  }
+  .garantia .seal .label{
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    color:var(--ink-soft);
+    margin-top:4px;
+    font-weight:600;
+  }
+  .garantia h2{margin-bottom:16px}
+  .garantia h2 em{color:var(--accent-dark); font-style:italic}
+  .garantia p{
+    max-width:540px;
+    margin:0 auto 12px;
+    color:var(--ink-soft);
+  }
+  .garantia .signoff{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:22px;
+    color:var(--ink);
+    margin-top:8px;
+  }
+
+  /* === CTA FINAL === */
+  .cta-final{background:var(--ink); color:#FFFFFF; text-align:center}
+  .cta-final .eyebrow{color:var(--accent-soft)}
+  .cta-final h2{color:#FFFFFF; margin-bottom:16px}
+  .cta-final h2 em{color:var(--accent-soft)}
+  .cta-final p{color:#D8D2C7; max-width:520px; margin:0 auto 28px}
+  .cta-final .btn{
+    background:#FFFFFF;
+    color:var(--ink);
+    box-shadow:0 4px 14px rgba(255,255,255,.12);
+  }
+  .cta-final .btn:hover{
+    background:var(--accent);
+    color:#FFFFFF;
+    box-shadow:0 6px 20px rgba(138,149,119,.50);
+  }
+  .cta-final .timer-mini{
+    margin-top:28px;
+    color:var(--accent-soft);
+    font-size:13px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+  }
+  .cta-final .timer-mini .timer span{display:inline-block; min-width:1.6em; text-align:center; font-weight:600; font-variant-numeric:tabular-nums}
+
+  /* === FAQ (2 colunas estilo pílulas) === */
+  .faq{background:var(--bg)}
+  .faq-grid{
+    display:grid;
+    grid-template-columns:1.25fr 1fr;
+    gap:64px;
+    align-items:center;
+    max-width:1080px;
+    margin:0 auto;
+    text-align:left;
+  }
+  .faq-list{
+    max-width:none;
+    margin:0;
+    text-align:left;
+    counter-reset:faq;
+  }
+  .faq-item{
+    background:var(--bg-alt);
+    border:none;
+    border-radius:60px;
+    margin-bottom:10px;
+    overflow:hidden;
+    transition:background .22s ease, border-radius .22s ease;
+    counter-increment:faq;
+  }
+  .faq-item.open{
+    border-radius:24px;
+    background:#E8EDD9;
+  }
+  .faq-q{
+    padding:18px 56px 18px 28px;
+    cursor:pointer;
+    position:relative;
+    font-family:'Inter', sans-serif;
+    font-size:14.5px;
+    font-weight:600;
+    color:var(--accent-deep);
+    line-height:1.4;
+    text-align:left;
+    transition:color .2s ease;
+  }
+  .faq-q::before{
+    content:counter(faq) ". ";
+    margin-right:4px;
+  }
+  .faq-q:hover{color:var(--accent-dark)}
+  .faq-q::after{
+    content:"";
+    position:absolute;
+    right:26px; top:50%;
+    width:9px; height:9px;
+    border-right:2px solid var(--accent-deep);
+    border-bottom:2px solid var(--accent-deep);
+    transform:translateY(-70%) rotate(45deg);
+    transition:transform .25s ease;
+  }
+  .faq-item.open .faq-q::after{
+    transform:translateY(-30%) rotate(-135deg);
+  }
+  .faq-a{
+    max-height:0;
+    overflow:hidden;
+    padding:0 28px;
+    transition:max-height .35s ease, padding .35s ease;
+    color:var(--ink-soft);
+    font-size:14.5px;
+    line-height:1.65;
+    text-align:left;
+  }
+  .faq-a p{text-align:left; margin:0}
+  .faq-item.open .faq-a{
+    max-height:500px;
+    padding:0 28px 22px;
+  }
+
+  .faq-aside{
+    text-align:left;
+    position:relative;
+  }
+  .faq-aside h2{
+    font-family:'Inter', sans-serif;
+    font-size:clamp(28px, 4vw, 44px);
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.02em;
+    color:var(--accent-deep);
+    margin:0 0 20px;
+    line-height:1.05;
+    text-align:left;
+    max-width:none;
+  }
+  .faq-aside p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    line-height:1.6;
+    margin:0 0 28px;
+    max-width:380px;
+    text-align:left;
+  }
+  .btn-contact{
+    display:inline-block;
+    background:transparent;
+    border:1.5px solid var(--accent-deep);
+    color:var(--ink);
+    padding:14px 32px;
+    border-radius:100px;
+    font-weight:600;
+    font-size:14px;
+    text-decoration:none;
+    transition:all .22s ease;
+    letter-spacing:.02em;
+  }
+  .btn-contact:hover{
+    background:var(--accent-deep);
+    color:#FFFFFF;
+  }
+
+  /* === PS (2 colunas) === */
+  .ps{
+    background:var(--bg);
+    border-top:1px solid var(--line);
+    text-align:left;
+  }
+  .ps-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:56px;
+    max-width:1040px;
+    margin:0 auto;
+    align-items:start;
+  }
+  .ps p{
+    text-align:left;
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:17.5px;
+    line-height:1.55;
+    color:var(--ink-soft);
+    margin:0;
+  }
+  .ps p strong{
+    font-family:'Inter', sans-serif;
+    font-style:normal;
+    font-weight:600;
+    color:var(--ink);
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.15em;
+    margin-right:8px;
+  }
+  @media (max-width:760px){
+    .ps-grid{grid-template-columns:1fr; gap:24px}
+  }
+
+  /* === WHATSAPP === */
+  .wa{background:var(--bg-alt); text-align:center; padding:48px 24px}
+  .wa h3{margin-bottom:8px}
+  .wa p{color:var(--ink-soft); margin-bottom:18px; font-size:15.5px}
+  .wa-link{
+    display:inline-flex; align-items:center; gap:10px;
+    color:var(--accent-dark);
+    font-weight:600;
+    font-size:14.5px;
+    letter-spacing:.04em;
+    border-bottom:1px solid var(--accent-dark);
+    padding-bottom:2px;
+    transition:color .2s ease, border-color .2s ease;
+  }
+  .wa-link:hover{color:var(--accent-deep); border-color:var(--accent-deep)}
+  .wa-link svg{width:16px; height:16px}
+
+  /* === FOOTER === */
+  footer{
+    background:var(--ink);
+    color:#9A938A;
+    padding:32px 24px;
+    text-align:center;
+    font-size:13px;
+    letter-spacing:.02em;
+  }
+  footer .legal{margin-top:8px; font-size:11.5px; opacity:.7}
+
+  /* === SONGS CAROUSEL === */
+  .carousel-wrap{
+    position:relative;
+    margin:36px -24px 0;
+    padding:0 24px;
+  }
+  .carousel-controls{
+    display:flex; gap:8px;
+    margin-bottom:18px;
+    justify-content:flex-end;
+    padding-right:0;
+  }
+  .carousel-btn{
+    width:42px; height:42px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.22);
+    background:transparent;
+    color:#FFFFFF;
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+    transition:all .22s ease;
+  }
+  .carousel-btn:hover{
+    background:var(--accent);
+    border-color:var(--accent);
+    transform:translateY(-1px);
+  }
+  .carousel-btn:active{transform:translateY(0)}
+  .carousel-btn svg{width:16px; height:16px; stroke:currentColor; fill:none}
+
+  .songs-carousel{
+    display:flex;
+    gap:16px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type:x mandatory;
+    padding:8px 4px 28px;
+    scrollbar-width:thin;
+    scrollbar-color:var(--accent) rgba(255,255,255,.08);
+    -webkit-overflow-scrolling:touch;
+    scroll-behavior:smooth;
+  }
+  .songs-carousel::-webkit-scrollbar{height:6px}
+  .songs-carousel::-webkit-scrollbar-thumb{background:var(--accent); border-radius:3px}
+  .songs-carousel::-webkit-scrollbar-track{background:rgba(255,255,255,.06); border-radius:3px}
+
+  .song-card{
+    flex:0 0 200px;
+    scroll-snap-align:start;
+    background:var(--white);
+    border-radius:var(--radius);
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    transition:transform .28s ease, box-shadow .28s ease;
+  }
+  .song-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 16px 36px rgba(0,0,0,.35), 0 0 0 1px rgba(138,149,119,.45);
+  }
+  .song-card .cover{
+    aspect-ratio:1/1;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Cormorant Garamond', serif;
+    font-size:84px;
+    font-weight:500;
+    line-height:1;
+    position:relative;
+    letter-spacing:-.04em;
+    text-transform:uppercase;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .song-card .cover img{
+    position:absolute;
+    inset:0;
+    width:100%; height:100%;
+    object-fit:cover;
+    z-index:2;
+    display:block;
+  }
+  .song-card .cover::after{
+    content:"♪";
+    position:absolute; bottom:12px; right:14px;
+    font-size:18px; opacity:.55;
+    font-family:Arial, sans-serif;
+    letter-spacing:0;
+    text-transform:none;
+    font-weight:400;
+    z-index:3;
+    color:#FFF;
+    text-shadow:0 1px 4px rgba(0,0,0,.4);
+  }
+  /* gradiente discreto no topo da imagem para legibilidade do ♪ */
+  .song-card .cover:has(img)::before{
+    content:"";
+    position:absolute;
+    inset:auto 0 0 0;
+    height:40%;
+    background:linear-gradient(to top, rgba(0,0,0,.25), transparent);
+    z-index:2;
+    pointer-events:none;
+  }
+  .song-card:nth-child(5n+1) .cover{background:linear-gradient(135deg, #8A9577 0%, #6E7A5C 100%); color:#FFFFFF}
+  .song-card:nth-child(5n+2) .cover{background:linear-gradient(135deg, #1A1A1A 0%, #2E2A26 100%); color:#C4CCB5}
+  .song-card:nth-child(5n+3) .cover{background:linear-gradient(135deg, #C4CCB5 0%, #E5EAD7 100%); color:#4F5A3E}
+  .song-card:nth-child(5n+4) .cover{background:linear-gradient(135deg, #4F5A3E 0%, #3B4530 100%); color:#C4CCB5}
+  .song-card:nth-child(5n+5) .cover{background:#FFFFFF; color:#8A9577; box-shadow:inset 0 0 0 2px #8A9577}
+
+  /* Card "ver mais" */
+  a.song-card{text-decoration:none; color:inherit; cursor:pointer}
+  .song-card.more .cover{
+    background:linear-gradient(135deg, #2A2A22 0%, #1A1A1A 100%) !important;
+    color:#FFFFFF !important;
+    box-shadow:inset 0 0 0 1px rgba(138,149,119,.45) !important;
+    flex-direction:column;
+    gap:4px;
+    padding:8px;
+    text-align:center;
+  }
+  .song-card.more .cover .num{
+    font-family:'Cormorant Garamond', serif;
+    font-size:74px;
+    line-height:1;
+    color:var(--accent-soft);
+    font-weight:600;
+    letter-spacing:-.04em;
+  }
+  .song-card.more .cover .num small{
+    font-size:.45em;
+    color:var(--accent-soft);
+    margin-left:2px;
+    vertical-align:top;
+    font-weight:500;
+  }
+  .song-card.more .cover .label{
+    font-family:'Inter', sans-serif;
+    font-size:9.5px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:rgba(255,255,255,.7);
+    font-weight:600;
+    margin-top:6px;
+  }
+  .song-card.more .cover::after{
+    content:"→";
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    bottom:14px; right:16px;
+    color:var(--accent-soft);
+    text-shadow:none;
+    opacity:1;
+    z-index:3;
+  }
+  .song-card.more:hover .cover::after{transform:translateX(3px); transition:transform .25s ease}
+  .song-card.more .info{background:#FFFFFF}
+  .song-card.more .title{color:var(--ink)}
+  .song-card.more .artist{color:var(--accent-dark); font-weight:600}
+
+  .song-card .info{
+    padding:16px 18px 20px;
+    flex:1;
+    display:flex; flex-direction:column;
+    background:#FFFFFF;
+  }
+  .song-card .title{
+    font-family:'Cormorant Garamond', serif;
+    font-size:18px;
+    font-weight:600;
+    color:var(--ink);
+    line-height:1.2;
+    margin-bottom:6px;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+    min-height:2.4em;
+  }
+  .song-card .artist{
+    font-size:11.5px;
+    color:var(--muted);
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    line-height:1.3;
+    font-weight:500;
+  }
+
+  /* === IMAGE PLACEHOLDERS === */
+  .img-slot{
+    width:100%;
+    background:var(--bg-alt);
+    border:1.5px dashed var(--accent);
+    border-radius:var(--radius);
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    color:var(--accent);
+    text-align:center;
+    padding:32px 24px;
+    margin:0 auto;
+    transition:background .2s ease;
+    overflow:hidden;
+    position:relative;
+  }
+  .img-slot::before{
+    content:"";
+    position:absolute; inset:8px;
+    border:1px solid rgba(138,149,119,.20);
+    border-radius:4px;
+    pointer-events:none;
+  }
+  .img-slot svg{
+    width:36px; height:36px;
+    stroke:var(--accent);
+    margin-bottom:12px;
+    opacity:.85;
+  }
+  .img-slot .label{
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:6px;
+  }
+  .img-slot .desc{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    font-weight:400;
+    max-width:300px;
+    line-height:1.5;
+    letter-spacing:0;
+    text-transform:none;
+  }
+  .img-slot.dark{
+    background:#222;
+    border-color:var(--accent-soft);
+    color:var(--accent-soft);
+  }
+  .img-slot.dark svg{stroke:var(--accent-soft)}
+  .img-slot.dark .label{color:var(--accent-soft)}
+  .img-slot.dark .desc{color:#D8D2C7}
+  .img-slot.dark::before{border-color:rgba(196,204,181,.20)}
+  .img-slot.ratio-16x9{aspect-ratio:16/9}
+  .img-slot.ratio-4x3{aspect-ratio:4/3}
+  .img-slot.ratio-3x4{aspect-ratio:3/4}
+  .img-slot.ratio-1x1{aspect-ratio:1/1}
+
+  .img-slot.round{border-radius:50%; aspect-ratio:1/1; max-width:200px}
+
+  .img-pair{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px;
+    max-width:600px;
+    margin:32px auto 0;
+  }
+
+  /* === CARDS GRID (Tudo que você vai dominar) === */
+  .cards-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    max-width:1040px;
+    margin:0 auto;
+  }
+  .skill-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:28px 26px;
+    text-align:left;
+    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    position:relative;
+  }
+  .skill-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 6px 24px rgba(138,149,119,.18);
+    border-color:var(--accent-soft);
+  }
+  .skill-card .icon-wrap{
+    width:52px; height:52px;
+    border-radius:50%;
+    background:var(--bg-alt);
+    border:1px solid var(--accent-soft);
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom:18px;
+    transition:background .25s ease;
+  }
+  .skill-card:hover .icon-wrap{background:#E5EAD7}
+  .skill-card .icon-wrap svg{
+    width:24px; height:24px;
+    stroke:var(--accent-dark);
+    fill:none;
+    stroke-width:1.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .skill-card h4{
+    font-family:'Cormorant Garamond', serif;
+    font-size:21px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:8px;
+    line-height:1.2;
+  }
+  .skill-card p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    line-height:1.55;
+    margin:0;
+  }
+
+  /* === E-BOOK STAGE (hero image) === */
+  .ebook-stage{
+    position:relative;
+    width:100%;
+    max-width:430px;
+    margin:0 0 0 auto;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .ebook-stage > img{
+    width:100%; height:auto; display:block;
+    border-radius:6px;
+    filter:drop-shadow(0 30px 50px rgba(0,0,0,.18)) drop-shadow(0 14px 24px rgba(138,149,119,.20));
+  }
+  .ebook-stage .hero-mockup-fallback{
+    display:none;
+    flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center;
+    width:100%; aspect-ratio:1/1.05;
+    background:var(--bg-alt);
+    border:1.5px dashed var(--accent);
+    border-radius:var(--radius);
+    padding:32px;
+  }
+  .ebook-stage.no-img .hero-mockup-fallback{display:flex}
+  .ebook-stage .hero-mockup-fallback svg{width:36px; height:36px; stroke:var(--accent); margin-bottom:14px; opacity:.85}
+  .ebook-stage .hero-mockup-fallback .lab{
+    font-size:13px; font-weight:600;
+    letter-spacing:.16em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:8px;
+  }
+  .ebook-stage .hero-mockup-fallback .hint{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    font-weight:400;
+    line-height:1.5;
+    max-width:260px;
+  }
+  .ebook-stage .hero-mockup-fallback code{
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size:11.5px;
+    background:var(--white);
+    padding:1px 6px;
+    border-radius:4px;
+    border:1px solid var(--line);
+    color:var(--accent);
+  }
+  .ebook-stage .float-note{
+    position:absolute;
+    color:var(--accent);
+    opacity:.9;
+    pointer-events:none;
+    font-family:Arial, sans-serif;
+  }
+  .ebook-stage .float-note.n1{top:6%; right:4%; font-size:48px; transform:rotate(15deg); color:var(--accent-soft)}
+  .ebook-stage .float-note.n2{bottom:18%; left:0%; font-size:34px; transform:rotate(-10deg); opacity:.55}
+  .ebook-stage .float-note.n3{top:35%; right:-2%; font-size:26px; transform:rotate(-20deg); color:var(--accent-dark); opacity:.7}
+  .ebook-stage .pulse-ring{
+    position:absolute; inset:14% 14% 14% 14%;
+    border:1px solid var(--accent-soft);
+    border-radius:50%;
+    opacity:.4;
+    animation:pulseRing 4s ease-in-out infinite;
+    pointer-events:none;
+  }
+  @keyframes pulseRing{0%,100%{transform:scale(1); opacity:.4} 50%{transform:scale(1.06); opacity:.15}}
+
+  /* === STATS BAR === */
+  .stats{
+    background:var(--bg);
+    padding:48px 24px;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    text-align:center;
+  }
+  .stats-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:24px;
+    max-width:1040px;
+    margin:0 auto;
+  }
+  .stat{position:relative; padding:0 8px}
+  .stat + .stat{border-left:1px solid var(--line)}
+  .stat-num{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(44px, 6vw, 64px);
+    font-weight:600;
+    color:var(--accent-dark);
+    line-height:1;
+    letter-spacing:-.03em;
+    margin-bottom:10px;
+    display:block;
+  }
+  .stat-num small{font-size:.55em; color:var(--accent-deep); margin-left:2px}
+  .stat-label{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-weight:500;
+    line-height:1.4;
+    display:block;
+  }
+
+  /* === PULL QUOTE === */
+  .pullquote{
+    background:linear-gradient(180deg, var(--bg-alt) 0%, #E8EDD9 100%);
+    padding:64px 24px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+  .pullquote::before{
+    content:"♪";
+    position:absolute;
+    top:30px; left:8%;
+    font-size:110px;
+    color:var(--accent);
+    opacity:.10;
+    font-family:'Cormorant Garamond', serif;
+    line-height:1;
+    transform:rotate(-15deg);
+  }
+  .pullquote::after{
+    content:"♫";
+    position:absolute;
+    bottom:30px; right:8%;
+    font-size:120px;
+    color:var(--accent);
+    opacity:.08;
+    font-family:'Cormorant Garamond', serif;
+    line-height:1;
+    transform:rotate(12deg);
+  }
+  .pullquote > *{position:relative; z-index:2}
+
+  .pullquote .qmark{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(70px, 8vw, 100px);
+    color:var(--accent-dark);
+    line-height:.7;
+    margin-bottom:-6px;
+    font-weight:600;
+    opacity:.5;
+    display:block;
+  }
+  .pullquote .big-quote{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(20px, 2.8vw, 28px);
+    line-height:1.35;
+    color:var(--ink);
+    max-width:680px;
+    margin:0 auto 22px;
+    font-weight:400;
+    letter-spacing:-.01em;
+  }
+  .pullquote .big-quote em{
+    color:var(--accent-dark);
+    font-style:italic;
+    font-weight:500;
+  }
+  .pullquote .qby{
+    font-family:'Cormorant Garamond', serif;
+    font-size:16px;
+    color:var(--ink);
+    font-weight:500;
+    line-height:1.2;
+    display:block;
+    text-transform:none;
+    letter-spacing:0;
+  }
+  .pullquote .qby small{
+    display:block;
+    margin-top:6px;
+    font-family:'Inter', sans-serif;
+    font-size:10.5px;
+    letter-spacing:.18em;
+    color:var(--muted);
+    font-weight:600;
+    text-transform:uppercase;
+  }
+
+  /* === KEYBOARD VISUAL SECTION === */
+  .keyboard-section{
+    background:var(--bg);
+    padding:88px 24px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+  }
+  .keyboard-section .sec-eyebrow{
+    display:block; text-align:center;
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:.22em;
+    color:var(--accent-dark);
+    font-weight:600;
+    margin-bottom:18px;
+  }
+  .keyboard-section h2{margin-bottom:18px}
+  .keyboard-section h2 em{color:var(--accent-dark); font-style:italic}
+  .keyboard-section .lede{margin-bottom:48px}
+
+  .kb-stage{
+    max-width:720px;
+    margin:0 auto 32px;
+    position:relative;
+    padding:0 8px;
+  }
+  .kb-stage svg{width:100%; height:auto; display:block; filter:drop-shadow(0 14px 24px rgba(0,0,0,.10))}
+
+  .kb-callouts{
+    display:flex;
+    justify-content:center;
+    gap:32px;
+    flex-wrap:wrap;
+    max-width:600px;
+    margin:0 auto 28px;
+  }
+  .kb-callout{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .kb-callout-dot{
+    width:36px; height:36px;
+    background:var(--accent);
+    border-radius:50%;
+    color:#FFF;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Cormorant Garamond', serif;
+    font-size:18px;
+    font-weight:600;
+  }
+  .kb-callout-text{
+    text-align:left;
+    font-size:14px;
+    color:var(--ink-soft);
+    line-height:1.3;
+  }
+  .kb-callout-text strong{display:block; color:var(--ink); font-weight:600}
+
+  .kb-conclusion{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:22px;
+    color:var(--ink);
+    max-width:520px;
+    margin:0 auto;
+    line-height:1.4;
+  }
+  .kb-conclusion strong{color:var(--accent-dark); font-style:normal; font-weight:600}
+
+  /* === PRODUTO ZIGZAG (imagem + checks) === */
+  .produto h2{max-width:680px; margin:0 auto 56px}
+  .produto-row{
+    display:grid;
+    grid-template-columns:0.85fr 1fr;
+    gap:32px;
+    align-items:center;
+    text-align:left;
+    margin:0 auto;
+    max-width:960px;
+  }
+  .produto-image{
+    position:relative;
+    display:flex;
+    align-items:center; justify-content:center;
+  }
+  .produto-image img{
+    max-width:280px; max-height:380px;
+    width:100%; height:auto;
+    display:block;
+    filter:drop-shadow(0 14px 30px rgba(0,0,0,.16));
+    border-radius:6px;
+    position:relative; z-index:2;
+  }
+  .produto-image .img-fallback{
+    display:flex;
+    flex-direction:column;
+    align-items:center; justify-content:center;
+    width:100%; aspect-ratio:3/4;
+    max-width:280px;
+    background:var(--white);
+    border:1.5px dashed var(--accent);
+    border-radius:var(--radius);
+    padding:28px;
+    text-align:center;
+  }
+  .produto-image:not(.no-img) .img-fallback{display:none}
+  .produto-image.no-img img{display:none}
+  .produto-image .img-fallback svg{
+    width:36px; height:36px;
+    stroke:var(--accent);
+    margin-bottom:14px;
+    opacity:.75;
+    fill:none;
+    stroke-width:1.4;
+  }
+  .produto-image .img-fallback .lab{
+    font-size:12.5px;
+    font-weight:600;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:8px;
+  }
+  .produto-image .img-fallback .hint{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    max-width:240px;
+  }
+  .produto-image .img-fallback code{
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size:11px;
+    background:var(--bg);
+    padding:1px 6px;
+    border-radius:4px;
+    color:var(--accent);
+    border:1px solid var(--line);
+  }
+
+  .produto-checks{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+  .produto-checks li{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    padding:11px 0;
+    font-size:16px;
+    color:var(--ink);
+    line-height:1.5;
+  }
+  .produto-checks .check{
+    width:24px; height:24px;
+    background:var(--accent);
+    border-radius:6px;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+    margin-top:2px;
+  }
+  .produto-checks .check svg{
+    width:14px; height:14px;
+    stroke:#FFFFFF;
+    stroke-width:3;
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+
+  .produto-divider{
+    height:1.5px;
+    background:linear-gradient(to right, transparent 0%, var(--accent) 25%, var(--accent) 75%, transparent 100%);
+    width:200px;
+    margin:72px auto;
+    opacity:.55;
+    border:none;
+  }
+
+  .produto .feature-row{margin:72px auto 0}
+
+  /* === FEATURE ROW (Produto: 3 cards horizontais) === */
+  .feature-row{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    max-width:880px;
+    margin:36px auto 40px;
+  }
+  .feature-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:32px 24px;
+    text-align:center;
+    transition:transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+  }
+  .feature-card:hover{
+    transform:translateY(-3px);
+    border-color:var(--accent-soft);
+    box-shadow:0 10px 28px rgba(138,149,119,.20);
+  }
+  .feature-card .feat-icon{
+    width:60px; height:60px;
+    border-radius:50%;
+    background:linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    margin:0 auto 18px;
+    display:flex; align-items:center; justify-content:center;
+    color:#FFF;
+    box-shadow:0 6px 18px rgba(138,149,119,.36);
+  }
+  .feature-card .feat-icon svg{width:26px; height:26px; stroke:currentColor; fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round}
+  .feature-card h4{
+    font-family:'Cormorant Garamond', serif;
+    font-size:22px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:8px;
+    line-height:1.2;
+  }
+  .feature-card p{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0;
+    line-height:1.5;
+  }
+
+  /* === BENTO GRID OVERRIDE === */
+  .cards-grid.bento .skill-card.span-2{grid-column:span 2}
+  .cards-grid.bento .skill-card.feature{
+    background:linear-gradient(135deg, #F4F6EE 0%, #FFFFFF 100%);
+    border-color:var(--accent-soft);
+  }
+  .cards-grid.bento .skill-card.feature .icon-wrap{
+    background:var(--accent);
+    border-color:var(--accent);
+  }
+  .cards-grid.bento .skill-card.feature .icon-wrap svg{stroke:#FFF}
+
+  /* === DECORATIVE NOTES === */
+  .deco-note{
+    position:absolute;
+    color:var(--accent);
+    opacity:.10;
+    pointer-events:none;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:500;
+    z-index:0;
+  }
+  .deco-note.dn1{top:40px; left:5%; font-size:120px; transform:rotate(-18deg)}
+  .deco-note.dn2{bottom:60px; right:5%; font-size:140px; transform:rotate(12deg); opacity:.08}
+
+  /* === ANIMATIONS === */
+  .fade-up{opacity:0; transform:translateY(24px); transition:opacity .8s ease, transform .8s ease}
+  .fade-up.in{opacity:1; transform:translateY(0)}
+
+  /* === RESPONSIVE === */
+  @media (max-width: 920px){
+    .cards-grid{grid-template-columns:repeat(2, 1fr)}
+    .paraquem-grid{grid-template-columns:repeat(2, 1fr)}
+    .dor-grid{grid-template-columns:repeat(2, 1fr)}
+    .oferta-grid{grid-template-columns:1fr; gap:36px; text-align:center}
+    .oferta-content{text-align:center}
+    .oferta-eyebrow,.oferta-sub{text-align:center}
+    .oferta-image{order:-1}
+    .virada-grid{grid-template-columns:1fr; gap:36px; text-align:center}
+    .virada-content{text-align:center}
+    .virada-content .eyebrow{text-align:center; margin-left:auto; margin-right:auto}
+    .virada-content h2{text-align:center; margin-left:auto; margin-right:auto; max-width:600px}
+    .virada-content .intro{text-align:center; max-width:600px; margin-left:auto; margin-right:auto}
+    .virada-closer{text-align:center; max-width:600px; margin-left:auto; margin-right:auto}
+    .virada{padding-bottom:0}
+    .virada-content{padding-bottom:0}
+    .virada-image{position:static; right:auto; bottom:auto; height:auto; margin:0 auto; padding-top:24px; display:flex; justify-content:center}
+    .virada-image img{max-width:380px; width:100%; height:auto}
+    .virada-content{max-width:none; padding-right:0; padding-bottom:32px}
+    .autora-card{padding:32px 28px}
+    .autora-grid{grid-template-columns:1fr; gap:0}
+    .autora-grid::before{display:none}
+    .autora-left{padding:0 0 32px; border-bottom:1px solid var(--line)}
+    .autora-right{padding:32px 0 0}
+    .faq-grid{grid-template-columns:1fr; gap:32px}
+    .faq-aside{position:static; order:-1; text-align:left}
+    .faq-aside h2{text-align:left}
+    .faq-aside p{text-align:left}
+    .stats-grid{grid-template-columns:repeat(2, 1fr); gap:32px 16px}
+    .stat:nth-child(3){border-left:none}
+    .pullquote{padding:72px 24px}
+    .keyboard-section{padding:72px 24px}
+    .cards-grid.bento .skill-card.span-2{grid-column:span 1}
+    .hero-grid{
+      grid-template-columns:1fr;
+      gap:40px;
+      text-align:center;
+    }
+    .hero{text-align:center; padding:40px 16px 48px}
+    .hero-card{padding:40px 28px}
+    .hero-content{text-align:center}
+    .hero .eyebrow{text-align:center; margin:0 auto 14px}
+    .hero h1{margin-left:auto; margin-right:auto}
+    .hero .lede{text-align:center; max-width:600px; margin:0 auto 22px}
+    .hero-bullets{max-width:520px; margin:0 auto 0}
+    .hero-image{order:-1; justify-content:center; margin-right:0}
+    .hero-image .img-slot{max-width:520px}
+    .ebook-stage{margin:0 auto; max-width:460px}
+  }
+  @media (max-width: 600px){
+    body{font-size:16px}
+    section{padding:56px 20px}
+    .hero{padding:32px 14px 40px}
+    .hero-card{padding:32px 22px; border-radius:20px}
+    .hero-bullets{grid-template-columns:1fr; gap:8px}
+    .hero-bullets li{padding:14px 16px; font-size:13.5px; gap:10px; min-height:auto}
+    .hero-bullets .ico{flex:0 0 24px; width:24px; height:24px}
+    .hero-bullets .ico svg{width:12px; height:12px}
+    .stack-item{padding:14px 0}
+    .stack-item .name-title{font-size:14.5px}
+    .stack-item .price{font-size:18px}
+    .stack-item .dots{min-width:14px}
+    .stack-total{padding-top:18px}
+    .stack-total .price{font-size:28px}
+    .stack-total .name-title{font-size:12px; letter-spacing:.14em}
+    .ancoragem .wrap, .oferta .wrap{padding:0}
+    .price-card{padding:32px 20px}
+    .price-card .main-price{font-size:52px}
+    .product-card{padding:36px 24px}
+    .topbar{font-size:12px; padding:10px 12px}
+    .btn{padding:16px 28px; font-size:14.5px}
+    .btn-lg{padding:18px 32px; font-size:15px}
+    .faq-q{font-size:18px; padding:18px 30px 18px 0}
+    .cards-grid{grid-template-columns:1fr; gap:12px}
+    .skill-card{padding:24px 20px}
+    .skill-card h4{font-size:19px}
+    .img-pair{grid-template-columns:1fr; gap:12px}
+    .img-slot{padding:24px 18px}
+    .paraquem-grid{grid-template-columns:1fr; gap:12px}
+    .pq-card{min-height:auto; padding:24px 22px}
+    .dor-grid{grid-template-columns:1fr; gap:10px}
+    .produto-row{grid-template-columns:1fr; gap:32px; max-width:520px}
+    .produto-row.reverse .produto-image{order:-1}
+    .produto-divider{margin:48px auto}
+    .feature-row{grid-template-columns:1fr; gap:10px; max-width:520px; margin:32px auto}
+    .feature-card{
+      display:grid;
+      grid-template-columns:48px 1fr;
+      grid-template-rows:auto auto;
+      gap:2px 14px;
+      align-items:center;
+      text-align:left;
+      padding:18px 20px;
+    }
+    .feature-card .feat-icon{
+      grid-row:1/3;
+      grid-column:1;
+      align-self:center;
+      width:48px; height:48px;
+      margin:0;
+    }
+    .feature-card .feat-icon svg{width:22px; height:22px}
+    .feature-card h4{
+      grid-column:2;
+      grid-row:1;
+      align-self:end;
+      margin:0;
+      font-size:17px;
+      line-height:1.2;
+    }
+    .feature-card p{
+      grid-column:2;
+      grid-row:2;
+      align-self:start;
+      font-size:13.5px;
+      line-height:1.45;
+      margin:0;
+    }
+    .stats{padding:32px 20px}
+    .stats-grid{gap:24px 12px}
+    .stat + .stat{border-left:none}
+    .stat:nth-child(odd){border-right:1px solid var(--line)}
+    .pullquote{padding:64px 20px}
+    .pullquote::before, .pullquote::after{display:none}
+    .pullquote .qmark{font-size:96px}
+    .keyboard-section{padding:56px 20px}
+    .kb-callouts{gap:14px}
+    .song-card{flex:0 0 160px}
+    .song-card .cover{font-size:64px}
+    .song-card .title{font-size:16px}
+    .carousel-controls{display:none}
+    .carousel-wrap{margin:28px -20px 0; padding:0 20px}
+  }
+</style>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="pulse"></span>
+  Oferta de lançamento, termina em
+  <span class="timer" aria-live="polite">
+    <span id="t-h">00</span>h <span id="t-m">00</span>m <span id="t-s">00</span>s
+  </span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap-wide">
+    <div class="hero-card">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow fade-up">Guia Piano MPB · Vol. 1</span>
+          <h1 class="fade-up">
+            Toque a <em class="accent">MPB que marcou sua vida</em> no piano sem depender de teoria complicada
+          </h1>
+          <p class="lede fade-up">
+            <strong>50 acompanhamentos prontos em pdf</strong> e organizados para você aplicar nas canções de Elis, Djavan, Chico, Milton, Caetano, com vídeo-aula mostrando, de cima, como posicionar sua mão em cada acompanhamento.
+          </p>
+          <ul class="hero-bullets fade-up">
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 18v-2M10 18v-6M16 18v-10M22 18v-14"/></svg>
+              </span>
+              Já tentou aprender cifras e travou
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+              </span>
+              Acha partitura complicada demais
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Quer tocar a MPB que marcou gerações com segurança
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg>
+              </span>
+              Quer um caminho prático, sem enrolação
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-image fade-up">
+      <div class="ebook-stage">
+        <span class="float-note n1" aria-hidden="true">♪</span>
+        <span class="float-note n2" aria-hidden="true">♫</span>
+        <span class="float-note n3" aria-hidden="true">♬</span>
+        <img src="assets/mpb-hero-mockup.png" alt="Guia Piano MPB, mockup do e-book" class="hero-mockup-img" width="460" height="500" decoding="async" fetchpriority="high" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'"/>
+        <div class="hero-mockup-fallback">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          <span class="lab">Mockup do hero</span>
+          <span class="hint">Substitua salvando sua imagem em<br/><code>assets/mpb-hero-mockup.png</code></span>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat fade-up">
+      <span class="stat-num">30<small>+</small></span>
+      <span class="stat-label">Anos<br/>ensinando piano</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">10k<small>+</small></span>
+      <span class="stat-label">Alunos<br/>atendidos</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">100<small>%</small></span>
+      <span class="stat-label">Método testado<br/>com adultos</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">★</span>
+      <span class="stat-label">Especialista em ensino<br/>para principiantes</span>
+    </div>
+  </div>
+</section>
+
+<!-- DOR -->
+<section class="dor">
+  <div class="wrap-wide">
+    <span class="eyebrow fade-up dark">Antes da gente continuar</span>
+    <h2 class="fade-up">Você se reconhece em alguma dessas <em>situações</em>?</h2>
+
+    <div class="dor-grid">
+      <article class="dor-card fade-up">
+        <span class="ico x" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </span>
+        <p>Sua mão direita toca a melodia, mas <strong>a esquerda trava</strong>, e você não sabe como acompanhar.</p>
+      </article>
+
+      <article class="dor-card fade-up">
+        <span class="ico x" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </span>
+        <p>Você até sabe qual é o acorde… mas <strong>não sabe como tocar</strong> de um jeito que soe MPB de verdade.</p>
+      </article>
+
+      <article class="dor-card fade-up">
+        <span class="ico x" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </span>
+        <p>Você vive <strong>pulando de tutorial em tutorial</strong>… e nunca consegue terminar uma música inteira.</p>
+      </article>
+
+      <article class="dor-card fade-up">
+        <span class="ico x" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </span>
+        <p>Sente que falta "alguma coisa" no seu som. Não é peso. Não é técnica. <strong>É vida.</strong></p>
+      </article>
+
+      <article class="dor-card fade-up">
+        <span class="ico x" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </span>
+        <p>Já comprou método, já estudou clave de fá, e <strong>ainda não toca a MPB</strong> com a elegância que ouve nas gravações originais.</p>
+      </article>
+
+      <article class="dor-card special fade-up">
+        <span class="ico alert" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.5 L22.2 21 L1.8 21 Z" fill="#F5B800" stroke="#D49500" stroke-width="0.6" stroke-linejoin="round"/>
+            <line x1="12" y1="9" x2="12" y2="14.5" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="12" cy="17.8" r="1.3" fill="#FFFFFF"/>
+          </svg>
+        </span>
+        <p><strong>Você não está sozinho.</strong> E o problema não é falta de talento. <strong>É falta de método.</strong></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- VIRADA -->
+<section class="virada">
+  <div class="virada-grid">
+    <div class="virada-content">
+      <span class="eyebrow fade-up">A virada</span>
+      <h2 class="fade-up">O problema <em>nunca foi você</em></h2>
+      <p class="intro fade-up">
+        Foi aprender os acordes soltos, tocando todas as notas ao mesmo tempo, sem entender como transformar tudo em acompanhamento. Por trás da sofisticação da MPB existe estrutura. Mas ninguém te mostrou como aplicar, quando variar e como fazer soar como música de verdade.
+      </p>
+      <p class="intro fade-up" style="margin-top:-12px">
+        Quando você entende como montar um padrão para sua mão esquerda, três coisas acontecem:
+      </p>
+
+      <ul class="virada-pills">
+        <li class="fade-up">Você pega qualquer cifra e <strong>sabe</strong> o que fazer com a mão esquerda</li>
+        <li class="fade-up">Você varia o acompanhamento dentro da mesma música<br/><strong>(estrofe diferente do refrão)</strong></li>
+        <li class="fade-up">Você toca com a sensação de <strong>"agora está soando como a gravação original"</strong></li>
+      </ul>
+
+      <p class="virada-closer fade-up">
+        E é exatamente isso que o <strong>Guia Piano MPB</strong> entrega: a lógica por trás da harmonia brasileira. <strong>Sem partitura complicada. Sem teoria pesada. Sem depender de tutorial solto.</strong> A boa notícia? Você vai perceber que a MPB não é complicada. Ela é organizada.
+      </p>
+    </div>
+
+    <div class="virada-image fade-up">
+      <img src="assets/mpb-virada.png" alt="Bianca Ribeiro ao piano" width="580" height="700" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('no-img')"/>
+      <div class="img-fallback">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+        <span class="lab">Imagem da virada</span>
+        <span class="hint">Foto da Bianca ao piano ou em pose de autoridade.<br/>Salve em<br/><code>assets/mpb-virada.png</code></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PULL QUOTE (citação Bianca) -->
+<section class="pullquote">
+  <span class="qmark fade-up">&ldquo;</span>
+  <p class="big-quote fade-up">
+    A sofisticação da música brasileira não está na complexidade, mas na <em>organização</em> da sua harmonia. Quando você entende essa estrutura, tocar se torna natural.
+  </p>
+  <span class="qby fade-up">
+    Bianca Ribeiro
+    <small>Profa. Dra. em Música · USP</small>
+  </span>
+</section>
+
+<!-- PRODUTO -->
+<section class="produto">
+  <div class="wrap-wide">
+    <span class="eyebrow fade-up">Resultados</span>
+    <h2 class="fade-up">O que você vai conseguir fazer depois de aplicar esses padrões</h2>
+    <p class="lede fade-up">Um caminho simples e progressivo para você sair do acorde parado e começar a acompanhar a MPB de verdade.</p>
+
+    <!-- BLOCO 1: imagem à esquerda, checks à direita -->
+    <div class="produto-row fade-up">
+      <div class="produto-image">
+        <img src="assets/mpb-ebook-page-01.png" alt="Página interna do e-book: Como montar um acorde" width="280" height="380" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('no-img')"/>
+        <div class="img-fallback">
+          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg>
+          <span class="lab">Página interna 01</span>
+          <span class="hint">Salve sua imagem em<br/><code>assets/mpb-ebook-page-01.png</code></span>
+        </div>
+      </div>
+      <ul class="produto-checks">
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como olhar para uma cifra e <strong>já saber o que fazer no teclado</strong></span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como montar acordes sem depender de decorar milhares de formatos</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como encontrar a versão certa da música para acompanhar com segurança</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como fazer sua música <strong>soar completa</strong> já nos primeiros padrões</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como trazer <strong>peso e emoção</strong> para sua performance usando o poder das oitavas</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Como dar movimento à música sem complicar a mão esquerda</span></li>
+      </ul>
+    </div>
+
+    <div class="produto-divider" aria-hidden="true"></div>
+
+    <!-- BLOCO 2: checks à esquerda, imagem à direita -->
+    <div class="produto-row reverse fade-up">
+      <ul class="produto-checks">
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span><strong>Abrir o som</strong> dos seus acordes para soar mais elegante e sofisticado</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Alternar baixo e acorde (stride) para dar movimento e presença</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Criar emoção na música sem complicar a mão esquerda</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Dar aquele <strong>balanço brasileiro</strong> com síncopes simples</span></li>
+        <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg></span><span>Aplicar cada padrão em músicas que marcaram sua vida</span></li>
+      </ul>
+      <div class="produto-image">
+        <img src="assets/mpb-ebook-page-02.png" alt="Página interna do e-book: Acordes no teclado" width="280" height="380" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('no-img')"/>
+        <div class="img-fallback">
+          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg>
+          <span class="lab">Página interna 02</span>
+          <span class="hint">Salve sua imagem em<br/><code>assets/mpb-ebook-page-02.png</code></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 CARDS DE FEATURE (formato do produto) -->
+    <div class="feature-row fade-up">
+      <div class="feature-card">
+        <div class="feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg>
+        </div>
+        <h4>E-book em PDF</h4>
+        <p>34 páginas com 50 padrões organizados por nível de dificuldade</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/></svg>
+        </div>
+        <h4>Masterclass em vídeo</h4>
+        <p>Demonstração prática de cada padrão aplicado em canções da MPB</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
+        </div>
+        <h4>Acesso vitalício</h4>
+        <p>Compra única. Estuda quando e onde quiser, em qualquer dispositivo</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYBOARD SECTION -->
+<section class="keyboard-section">
+  <span class="deco-note dn1" aria-hidden="true">♪</span>
+  <span class="deco-note dn2" aria-hidden="true">♫</span>
+  <div class="wrap-wide" style="position:relative; z-index:1">
+    <span class="sec-eyebrow fade-up">Como funciona, na prática</span>
+    <h2 class="fade-up">Você não precisa decorar acordes. <em>Só precisa entender a lógica.</em></h2>
+    <p class="lede fade-up">Toda cifra começa com 3 notas organizadas. Quando você enxerga isso no teclado, o que parecia complicado fica acessível.</p>
+
+    <div class="kb-stage fade-up">
+      <svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Teclado com acorde de Dó maior destacado">
+        <defs>
+          <linearGradient id="whiteKey" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#F2ECE0"/>
+          </linearGradient>
+          <linearGradient id="blackKey" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2D2A26"/>
+            <stop offset="100%" stop-color="#0D0B09"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Base sombra -->
+        <rect x="30" y="220" width="420" height="4" fill="#000" opacity="0.12" rx="2"/>
+
+        <!-- Teclas brancas -->
+        <g>
+          <rect x="30" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="90" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="150" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="210" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="270" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="330" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+          <rect x="390" y="20" width="60" height="200" rx="2" fill="url(#whiteKey)" stroke="#D4CDC1" stroke-width="0.8"/>
+        </g>
+
+        <!-- Highlight verde nas teclas tocadas -->
+        <g>
+          <rect x="31" y="21" width="58" height="198" rx="2" fill="#8A9577" opacity="0.14"/>
+          <rect x="151" y="21" width="58" height="198" rx="2" fill="#8A9577" opacity="0.14"/>
+          <rect x="271" y="21" width="58" height="198" rx="2" fill="#8A9577" opacity="0.14"/>
+        </g>
+
+        <!-- Teclas pretas -->
+        <g>
+          <rect x="72" y="20" width="36" height="120" rx="2" fill="url(#blackKey)"/>
+          <rect x="132" y="20" width="36" height="120" rx="2" fill="url(#blackKey)"/>
+          <rect x="252" y="20" width="36" height="120" rx="2" fill="url(#blackKey)"/>
+          <rect x="312" y="20" width="36" height="120" rx="2" fill="url(#blackKey)"/>
+          <rect x="372" y="20" width="36" height="120" rx="2" fill="url(#blackKey)"/>
+        </g>
+
+        <!-- Linha conectando as 3 notas (decoração) -->
+        <path d="M 60 184 Q 180 168 300 184" stroke="#8A9577" stroke-width="1.5" fill="none" opacity="0.45" stroke-dasharray="3 4"/>
+
+        <!-- Marcadores das notas (Dó, Mi, Sol) -->
+        <g>
+          <circle cx="60" cy="184" r="17" fill="#8A9577" filter="drop-shadow(0 4px 8px rgba(138,149,119,0.45))"/>
+          <text x="60" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">C</text>
+
+          <circle cx="180" cy="184" r="17" fill="#8A9577" filter="drop-shadow(0 4px 8px rgba(138,149,119,0.45))"/>
+          <text x="180" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">E</text>
+
+          <circle cx="300" cy="184" r="17" fill="#8A9577" filter="drop-shadow(0 4px 8px rgba(138,149,119,0.45))"/>
+          <text x="300" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">G</text>
+        </g>
+
+        <!-- Label "Cifra C" no topo -->
+        <g>
+          <rect x="200" y="-2" width="80" height="22" rx="11" fill="#1A1A1A"/>
+          <text x="240" y="13" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="14" fill="#FFFFFF" font-style="italic" font-weight="500">cifra · C</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="kb-callouts fade-up">
+      <div class="kb-callout">
+        <span class="kb-callout-dot">C</span>
+        <span class="kb-callout-text"><strong>Dó</strong>fundamental</span>
+      </div>
+      <div class="kb-callout">
+        <span class="kb-callout-dot">E</span>
+        <span class="kb-callout-text"><strong>Mi</strong>terça</span>
+      </div>
+      <div class="kb-callout">
+        <span class="kb-callout-dot">G</span>
+        <span class="kb-callout-text"><strong>Sol</strong>quinta</span>
+      </div>
+    </div>
+
+    <p class="kb-conclusion fade-up">
+      É só isso. <strong>Um desenho que se repete.</strong><br/>
+      Aprenda esse padrão uma vez e você começa a tocar dezenas de canções da MPB.
+    </p>
+  </div>
+</section>
+
+<!-- REPERTÓRIO -->
+<section class="repertorio">
+  <div class="wrap-wide">
+    <span class="eyebrow fade-up">Repertório de referência</span>
+    <h2 class="fade-up">As canções da MPB que marcaram sua vida ficam simples quando você entende os <em>padrões</em></h2>
+    <p class="fade-up">Essas músicas são usadas como referência dentro do guia, para você aplicar os padrões e acompanhar qualquer canção da MPB. <em>Arraste para o lado</em> ou use as setas.</p>
+
+    <div class="carousel-wrap fade-up">
+      <div class="carousel-controls">
+        <button class="carousel-btn" data-dir="prev" aria-label="Música anterior">
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="carousel-btn" data-dir="next" aria-label="Próxima música">
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <div class="songs-carousel" id="songsCarousel" tabindex="0" aria-label="Carrossel de músicas">
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/como-nossos-pais.jpg" alt="Como Nossos Pais, Elis Regina" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>C</div><div class="info"><div class="title">Como Nossos Pais</div><div class="artist">Elis Regina</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/maria-maria.jpg" alt="Maria Maria, Milton Nascimento" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>M</div><div class="info"><div class="title">Maria Maria</div><div class="artist">Milton Nascimento</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/pela-luz-dos-olhos-teus.jpg" alt="Pela Luz dos Olhos Teus, Tom Jobim" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>P</div><div class="info"><div class="title">Pela Luz dos Olhos Teus</div><div class="artist">Tom Jobim</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/joao-e-maria.jpg" alt="João e Maria, Chico Buarque" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>J</div><div class="info"><div class="title">João e Maria</div><div class="artist">Chico Buarque</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/fico-assim-sem-voce.jpg" alt="Fico Assim Sem Você, Adriana Calcanhoto" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>F</div><div class="info"><div class="title">Fico Assim Sem Você</div><div class="artist">Adriana Calcanhoto</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/cacador-de-mim.jpg" alt="Caçador de Mim, Milton Nascimento" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>C</div><div class="info"><div class="title">Caçador de Mim</div><div class="artist">Milton Nascimento</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/oceano.jpg" alt="Oceano, Djavan" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>O</div><div class="info"><div class="title">Oceano</div><div class="artist">Djavan</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/sozinho.jpg" alt="Sozinho, Caetano Veloso" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>S</div><div class="info"><div class="title">Sozinho</div><div class="artist">Caetano Veloso</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/velha-infancia.jpg" alt="Velha Infância, Tribalistas" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>V</div><div class="info"><div class="title">Velha Infância</div><div class="artist">Tribalistas</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/vilarejo.jpg" alt="Vilarejo, Marisa Monte" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>V</div><div class="info"><div class="title">Vilarejo</div><div class="artist">Marisa Monte</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/coracao-de-estudante.jpg" alt="Coração de Estudante, Milton Nascimento" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>C</div><div class="info"><div class="title">Coração de Estudante</div><div class="artist">Milton Nascimento</div></div></article>
+        <article class="song-card"><div class="cover"><img src="assets/covers/mpb/codinome-beija-flor.jpg" alt="Codinome Beija Flor, Cazuza" width="200" height="200" loading="lazy" decoding="async" onerror="this.style.display='none'"/>C</div><div class="info"><div class="title">Codinome Beija Flor</div><div class="artist">Cazuza</div></div></article>
+        <a class="song-card more" href="#oferta" aria-label="Ver todos os 50 padrões no guia completo">
+          <div class="cover">
+            <span class="num">+40<small>›</small></span>
+            <span class="label">aplicações no guia</span>
+          </div>
+          <div class="info">
+            <div class="title">E muito mais</div>
+            <div class="artist">No guia completo</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <p class="fade-up" style="text-align:center; max-width:680px; margin:36px auto 0; color:#D8D2C7; font-size:14px; line-height:1.55">
+      <strong style="color:#FFFFFF; font-weight:600">Importante:</strong> as músicas acima são usadas como exemplo de aplicação dos padrões de acompanhamento ensinados no guia. Você não está comprando arranjos prontos, está aprendendo a estrutura que permite tocar dezenas de canções da MPB.
+    </p>
+  </div>
+</section>
+
+<!-- PARA QUEM -->
+<section class="paraquem">
+  <div class="wrap-wide">
+    <span class="eyebrow fade-up">Pra quem foi feito</span>
+    <h2 class="fade-up">Esse guia é pra você se…</h2>
+
+    <div class="paraquem-grid">
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M16 8a5 5 0 1 0 0 8"/><circle cx="9" cy="17" r="2.5"/><path d="M11.5 17V6"/></svg>
+        </div>
+        <p>Você toca piano ou teclado, mas <strong>ainda não entende cifras</strong> de forma simples e prática.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.8"/><circle cx="12" cy="12" r=".8" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <p>Sempre tocou <strong>repertório clássico</strong> e quer experimentar a música brasileira que escuta no dia a dia.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9 11V6a2 2 0 1 1 4 0v5"/><path d="M15 12V9a2 2 0 1 1 4 0v8a5 5 0 0 1-5 5h-3a4 4 0 0 1-4-4l-1-3a2 2 0 0 1 3-2.5l1 1.5"/></svg>
+        </div>
+        <p>Você toca <strong>de ouvido</strong> e não sabe o que fazer com a <strong>mão esquerda</strong>.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M22 2 6 18"/><path d="M22 2 13 22l-2-9-9-2z"/></svg>
+        </div>
+        <p>Quer <strong>se libertar da partitura</strong> pronta e tocar a partir da cifra com liberdade.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="11" x2="21" y2="11"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="3" y1="19" x2="21" y2="19"/><circle cx="14" cy="13" r="2.6" fill="currentColor" stroke="none"/><line x1="16.6" y1="13" x2="16.6" y2="4"/></svg>
+        </div>
+        <p>Tem <strong>dificuldade com a clave de fá</strong> e busca um caminho mais musical e direto.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <p>Quer entender <strong>como escolher as notas certas</strong> pra que o acompanhamento soe como a gravação original.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg>
+        </div>
+        <p>Tem <strong>pouco tempo para estudar</strong> e quer algo direto ao ponto.</p>
+      </article>
+
+      <article class="pq-card fade-up">
+        <div class="pq-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <p>Quer <strong>resultado prático e simples</strong>: aplicar e ver acontecer.</p>
+      </article>
+
+    </div>
+
+    <p class="fade-up" style="text-align:center; max-width:680px; margin:48px auto 0; font-family:'Cormorant Garamond', serif; font-style:italic; font-size:21px; color:var(--ink); line-height:1.45">
+      Se você já tentou aprender cifras antes e desistiu, isso <strong style="font-style:normal; color:var(--accent-dark); font-weight:600">não significa que você não leva jeito.</strong> Significa que ninguém te mostrou o caminho certo.
+    </p>
+  </div>
+</section>
+
+<!-- AUTORA -->
+<section class="autora">
+  <div class="wrap-wide">
+    <span class="eyebrow fade-up">Quem te guia</span>
+    <h2 class="fade-up" style="max-width:760px; margin:0 auto 32px; text-align:center">Talvez você não precise de mais teoria.<br/><em>Precise de alguém que já ensinou centenas de adultos a destravar a cifra.</em></h2>
+
+    <div class="autora-card fade-up">
+      <div class="autora-grid">
+        <div class="autora-left">
+          <div class="bianca-avatar">
+            <img src="assets/bianca.jpg" alt="Bianca Ribeiro" width="140" height="140" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="bianca-fallback" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+              <span>Foto da Bianca</span>
+            </div>
+          </div>
+          <h3 class="autora-name">Profa. Dra. Bianca Ribeiro</h3>
+          <div class="autora-role">Pianista · Pesquisadora · Educadora</div>
+          <p class="autora-quote">"Meu foco é fazer você olhar para uma cifra e saber exatamente o que fazer."</p>
+        </div>
+
+        <div class="autora-right">
+          <span class="autora-sub">Sobre Bianca</span>
+          <ul class="credentials">
+            <li>Doutora em Teoria e Análise Musical pela <strong>USP</strong></li>
+            <li>Mais de <strong>30 anos</strong> ensinando piano</li>
+            <li>Especialista em ensino criativo para crianças, adolescentes e adultos</li>
+            <li>Criadora de materiais didáticos usados por professores em todo o Brasil</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANCORAGEM (comparação aula particular) -->
+<section class="ancoragem">
+  <div class="wrap">
+    <span class="eyebrow fade-up">Compare</span>
+    <h2 class="fade-up">Uma única aula particular de piano custa em média <em>R$ 120 a R$ 350</em></h2>
+    <p class="sub fade-up">Aqui você tem o equivalente a meses de acompanhamento estruturado, em formato prático e direto ao ponto.</p>
+
+    <div class="stack fade-up">
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:18px; color:var(--ink-soft); margin:0 0 20px; text-align:left">Se você contratasse:</p>
+
+      <div class="stack-item">
+        <div class="row">
+          <span class="name-title">Aulas para entender as cifras</span>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">R$ 480</span>
+        </div>
+        <small>4 aulas particulares × R$ 120</small>
+      </div>
+      <div class="stack-item">
+        <div class="row">
+          <span class="name-title">Aulas para aprender padrões de acompanhamento</span>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">R$ 720</span>
+        </div>
+        <small>6 aulas particulares × R$ 120</small>
+      </div>
+      <div class="stack-item">
+        <div class="row">
+          <span class="name-title">Orientação personalizada em cada padrão</span>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">R$ 240</span>
+        </div>
+        <small>2 aulas particulares × R$ 120</small>
+      </div>
+      <div class="stack-item">
+        <div class="row">
+          <span class="name-title">Atualizações contínuas do material</span>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">R$ 60</span>
+        </div>
+        <small>Acesso vitalício a novas versões</small>
+      </div>
+
+      <div class="stack-total">
+        <span class="name-title">
+          Você investiria facilmente
+          <small>em aulas particulares</small>
+        </span>
+        <span class="price">R$ 1.500</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA (dark com 2 colunas) -->
+<section class="oferta" id="oferta">
+  <div class="oferta-grid">
+    <div class="oferta-image fade-up">
+      <img src="assets/mpb-oferta-mockup.png" alt="Guia Piano MPB, pacote completo" width="500" height="500" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('no-img')"/>
+      <div class="img-fallback">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+        <span class="lab">Mockup do produto</span>
+        <span class="hint">Salve em<br/><code>assets/mpb-oferta-mockup.png</code></span>
+      </div>
+    </div>
+
+    <div class="oferta-content fade-up">
+      <span class="oferta-eyebrow">Acesso vitalício</span>
+      <span class="oferta-sub">Você só paga uma vez esse valor</span>
+
+      <div class="oferta-price">
+        <span class="big">9x de R$ 8,80</span>
+        <span class="alt">ou R$ 67,00 à vista</span>
+      </div>
+
+      <a class="btn-cta" href="https://pay.hotmart.com/M106028597O?checkoutMode=10">Sim, quero meu Guia</a>
+
+      <p class="oferta-micro">Condição especial por tempo limitado.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="garantia">
+  <div class="wrap">
+    <div class="seal fade-up">
+      <span class="num">7</span>
+      <span class="label">Dias</span>
+    </div>
+    <span class="eyebrow fade-up">Garantia incondicional</span>
+    <h2 class="fade-up">O risco é todo <em>nosso</em></h2>
+    <p class="fade-up">
+      Compre hoje, baixe o guia, assista a masterclass, teste os padrões nas suas músicas favoritas da MPB. Se em até 7 dias você sentir que não é pra você, por <strong>qualquer motivo</strong>, devolvemos 100% do valor.
+    </p>
+    <p class="fade-up"><strong>Sem perguntas. Sem enrolação. Sem burocracia.</strong></p>
+    <p class="signoff fade-up">Você só corre o risco de tocar bem.</p>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="wrap">
+    <span class="eyebrow fade-up">Última chamada</span>
+    <h2 class="fade-up">Toque a primeira música <em>essa semana</em></h2>
+    <p class="fade-up">A oferta de lançamento por R$ 67 termina em breve. Depois disso, o guia volta ao preço cheio de R$ 297.</p>
+    <a class="btn btn-lg fade-up" href="#oferta">Quero o Guia por R$ 67</a>
+    <div class="timer-mini fade-up">
+      Termina em
+      <span class="timer">
+        <span id="t-h2">00</span>h <span id="t-m2">00</span>m <span id="t-s2">00</span>s
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="faq-grid">
+    <div class="faq-list">
+      <div class="faq-item fade-up">
+        <div class="faq-q">O Guia vem com as partituras das músicas?</div>
+        <div class="faq-a"><p>Não. O Guia <strong>não ensina músicas específicas com partitura pronta</strong>. Ele ensina algo mais poderoso: os padrões de acompanhamento que você pode aplicar em qualquer canção da MPB. Você aprende a olhar para uma cifra e saber o que fazer com a mão esquerda, sem depender da partitura.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">O guia é em vídeo ou em PDF?</div>
+        <div class="faq-a"><p>Os dois. Você recebe um e-book em PDF com os 50 padrões escritos (escrita tradicional + ilustração no teclado) e uma masterclass em vídeo demonstrando cada padrão aplicado em canções reais da MPB.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Tenho que pagar mensalidade?</div>
+        <div class="faq-a"><p>Não. É <strong>compra única</strong>. Você paga R$ 67 uma vez e tem acesso vitalício ao material, incluindo atualizações futuras.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Funciona pra quem nunca leu partitura?</div>
+        <div class="faq-a"><p>Sim. O guia foi pensado para quem toca a partir da cifra. Tem a escrita tradicional para quem quiser, mas o foco é justamente fugir da partitura completa e aprender a acompanhar lendo cifra.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Sou iniciante. Vou conseguir aplicar?</div>
+        <div class="faq-a"><p>Sim. Os padrões são organizados <strong>por nível de dificuldade</strong>, do mais simples ao mais avançado. Os primeiros são pensados para quem está começando. Você evolui no seu ritmo.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Preciso ter um piano caro?</div>
+        <div class="faq-a"><p>Não. Funciona em piano acústico, piano digital ou teclado. Tudo que você precisa é de um instrumento e disposição para experimentar.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Posso acessar pelo celular?</div>
+        <div class="faq-a"><p>Sim. PDF e vídeo abrem em qualquer dispositivo: celular, tablet, computador.</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">Recebo tudo na hora?</div>
+        <div class="faq-a"><p>Sim. Acesso liberado <strong>imediatamente</strong> após a confirmação do pagamento (Pix em segundos, cartão na hora).</p></div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q">E se eu não gostar?</div>
+        <div class="faq-a"><p>Você tem <strong>7 dias</strong> para testar e pedir o reembolso integral, sem perguntas e sem burocracia. O risco é todo nosso.</p></div>
+      </div>
+    </div>
+
+    <aside class="faq-aside fade-up">
+      <h2>Perguntas Frequentes</h2>
+      <p>Ficou com alguma dúvida? Confira as respostas para as perguntas frequentes ou entre em contato direto pelo botão abaixo:</p>
+      <a class="btn-contact" href="https://wa.link/adtgkg" target="_blank" rel="noopener">Entrar em contato</a>
+    </aside>
+  </div>
+</section>
+
+<!-- PS -->
+<section class="ps">
+  <div class="ps-grid">
+    <p class="fade-up"><strong>P.S.</strong> Se você ainda está em dúvida, lembra disso: você não está investindo R$ 67 em um PDF. Você está investindo num atalho de anos. Em 30 minutos com o guia em mãos, você já consegue aplicar o primeiro padrão numa canção da MPB que ama. E quando isso acontece, o aprendizado deixa de ser estudo e vira prazer.</p>
+    <p class="fade-up"><strong>P.P.S.</strong> A garantia é incondicional. Se não servir, você pede o reembolso e volta pra estaca zero, sem perder um real. O risco real é não testar.</p>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div>Copyright © Bianca Ribeiro · Todos os direitos reservados</div>
+  <div class="legal">Este site não é afiliado à Hotmart, Meta, Google ou qualquer outra plataforma. Resultados podem variar conforme dedicação individual.</div>
+</footer>
+
+<script>
+  // === COUNTDOWN ===
+  // Marca um deadline de 24h a partir da primeira visita (com fallback)
+  (function(){
+    var KEY = 'gmpb_deadline_v1';
+    var deadline;
+    try{
+      var saved = localStorage.getItem(KEY);
+      if(saved){
+        deadline = parseInt(saved, 10);
+        // Se já passou, reseta com novas 24h
+        if(isNaN(deadline) || deadline - Date.now() < 0){
+          deadline = Date.now() + 24*60*60*1000;
+          localStorage.setItem(KEY, deadline);
+        }
+      } else {
+        deadline = Date.now() + 24*60*60*1000;
+        localStorage.setItem(KEY, deadline);
+      }
+    } catch(e){
+      deadline = Date.now() + 24*60*60*1000;
+    }
+
+    function pad(n){ n = Math.max(0, n); return n < 10 ? '0'+n : ''+n; }
+    function tick(){
+      var diff = deadline - Date.now();
+      if(diff < 0) diff = 0;
+      var h = Math.floor(diff / (1000*60*60));
+      var m = Math.floor((diff % (1000*60*60)) / (1000*60));
+      var s = Math.floor((diff % (1000*60)) / 1000);
+      ['t-h','t-m','t-s','t-h2','t-m2','t-s2'].forEach(function(id){
+        var el = document.getElementById(id);
+        if(!el) return;
+        if(id.indexOf('h') > -1) el.textContent = pad(h);
+        else if(id.indexOf('m') > -1) el.textContent = pad(m);
+        else el.textContent = pad(s);
+      });
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+
+  // === SONGS CAROUSEL ===
+  (function(){
+    var carousel = document.getElementById('songsCarousel');
+    if(!carousel) return;
+    var step = 220; // largura do card (200) + gap (16) ~ 220
+    document.querySelectorAll('.carousel-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var dir = btn.getAttribute('data-dir');
+        var card = carousel.querySelector('.song-card');
+        if(card){
+          var w = card.getBoundingClientRect().width;
+          step = w + 16;
+        }
+        carousel.scrollBy({ left: dir === 'next' ? step : -step, behavior: 'smooth' });
+      });
+    });
+    // navegação por teclado quando o carrossel está focado
+    carousel.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowRight'){ e.preventDefault(); carousel.scrollBy({left:step, behavior:'smooth'}); }
+      if(e.key === 'ArrowLeft'){ e.preventDefault(); carousel.scrollBy({left:-step, behavior:'smooth'}); }
+    });
+  })();
+
+  // === META PIXEL: ViewContent ao atingir 50% de scroll ===
+  (function(){
+    var fired = false;
+    function checkScroll(){
+      if(fired) return;
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if(docHeight <= 0) return;
+      var pct = scrollTop / docHeight;
+      if(pct >= 0.5){
+        fired = true;
+        if(typeof fbq !== 'undefined'){ fbq('track', 'ViewContent'); }
+        window.removeEventListener('scroll', checkScroll);
+      }
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+  })();
+
+  // === FAQ ACCORDION ===
+  document.querySelectorAll('.faq-q').forEach(function(q){
+    q.addEventListener('click', function(){
+      var item = q.parentElement;
+      var isOpen = item.classList.contains('open');
+      // Fecha todos
+      document.querySelectorAll('.faq-item.open').forEach(function(el){ el.classList.remove('open'); });
+      // Abre se não estava aberto
+      if(!isOpen) item.classList.add('open');
+    });
+  });
+
+  // === FADE UP ON SCROLL ===
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-up').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.fade-up').forEach(function(el){ el.classList.add('in'); });
+  }
+</script>
+</body>
+</html>
